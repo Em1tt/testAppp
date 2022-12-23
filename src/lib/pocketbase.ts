@@ -2,7 +2,7 @@ import PocketBase from 'pocketbase';
 
 import { writable } from 'svelte/store';
 
-export const pb = new PocketBase('http://45.131.64.201:8090/');
+export const pb = new PocketBase('https://vps.em1t.xyz');
 
 export const currentUser = writable(pb.authStore.model);
 
