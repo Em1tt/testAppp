@@ -1,9 +1,6 @@
+
 <script lang="ts">
-  import Login from "./lib/Login.svelte";
-  import Messages from "./lib/Messages.svelte";
+  import Welcome from "./lib/Welcome.svelte";
 </script>
 
-<h1>Pocketchat</h1>
-
-<Login/>
-<Messages/>
+<Welcome/>

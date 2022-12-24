@@ -1,4 +1,5 @@
 <script lang="ts">
+    /*
     import { onMount, onDestroy } from 'svelte';
     import {currentUser, pb} from './pocketbase';
 
@@ -37,6 +38,7 @@
         const createdMessage = await pb.collection("messages").create(data);
         newMessage = '';
     }
+    */
 </script>
 
 <div class="messages">
